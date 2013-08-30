@@ -1,0 +1,11 @@
+name: EventManager
+main: com.adarkserver.darkenedevil.giveaway.EventManager
+version: 1.0.0
+commands:
+   Ready:
+      description: Puts player in ready position
+      usage: /read
+   EventStart:
+      description: Used to start an event.
+      usage: /eventstart [event_type] [Num_Players in event]
+      permission: EventManager.EStart
