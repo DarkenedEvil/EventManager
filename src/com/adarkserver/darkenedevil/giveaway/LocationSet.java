@@ -74,8 +74,14 @@ public class LocationSet implements CommandExecutor{
 								e.printStackTrace();
 							}
 						}
+					}else{
+						sender.sendMessage("YOu don't have permission for this command.");
 					}
+				}else{
+					sender.sendMessage("You must be a player to use this command!");
 				}
+			}else{
+				sender.sendMessage("Usage: /locationset [eventtype]");
 			}
 		}
 		return true;
